@@ -42,6 +42,17 @@ try:
 except Exception as error:
     print(f"Error removing the file: {error}")
 
+#removing image file
+print("Removing the default jpg file...")
+try:
+    if os.path.exists("logo.jpg"):
+        os.remove("logo.jpg")
+        print("Jpg file removed successfully")
+    else:
+        print("The file does not exist")
+except Exception as error:
+    print(f"Error removing the file: {error}")
+
 #removing personal AMIs
     print("Removing personal AMIs")
 
