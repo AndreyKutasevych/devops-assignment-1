@@ -26,7 +26,7 @@ for bucket in s3.buckets.all():
             print (f"Error emptying bucket {bucket.name}: {error}")
     try:
         bucket.delete()
-        print ("Bucket removed successfully")
+        print (f"Bucket {bucket.name} removed successfully")
     except Exception as error:
         print (f"Error deleting a bucket: {error}")
 print(".........")
