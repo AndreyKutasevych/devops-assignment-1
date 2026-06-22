@@ -1,0 +1,1 @@
+the assignment focused on creating and destroying an ec2 instance as well as hosting a static website on an s3 bucket - the key was uploaded so the teacher could access the insatnce via ssh on his own and check the configs manually
